@@ -1,0 +1,273 @@
+@media only screen and (min-width: 320px) {
+  
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', Helvetica, sans-serif; 
+}
+
+.introduction {
+  height: 640px;
+  background-color:#666666;
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/hero.jpg);
+  background-size: cover;
+
+}
+
+.header {
+  color: #ffffff; 
+  margin-top 18px;
+}
+
+.title-replace {
+  margin-left: 34px;
+  margin-top: 18px;
+  width: 157px;
+  height: 100px;
+  background: url(http://jeremyabrahams.github.io/mw-project-1/img/factory-logo.png);
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; 
+}
+
+.header-nav {
+  position: relative;
+  float: right;
+}
+
+.header-nav-list {
+  display: block;
+  list-style: none;
+  font-size: 12px;
+  margin-right: 35px;
+}
+
+.header-nav-list li {
+  display: inline;
+  padding: 0;
+}
+
+.header-nav-list a {
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin-left:20px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+.banner {
+  color: #fff;
+}
+
+.banner-title {
+  font-size: 92px;
+  line-height: 1.2em;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 100;
+  
+}
+
+.banner-text {
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.2em;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.banner-text:after {
+  content:""; /* or image? */
+  display: block;
+  margin-top: 22px;
+ width: 45px;
+  height: 30px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/mw-icon.png');
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  background-color: #ffffff;
+}
+
+.intro-text {
+  color: #C3BFBF;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 56px;
+  text-align: center;
+  width: 75vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:150px;
+  padding-bottom:77px;
+  letter-spacing:1px;
+  max-width: 844px;
+}
+
+.intro-text:after {
+  content: "";
+  display: block;
+  width: 556px;
+  height: 30px;
+  margin-top: 20px;
+  background-image: url('http://jeremyabrahams.github.io/mw-project-1/img/divider.png');
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-goals {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.course-goals-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.2em;
+  color: #777777;
+  font-size: 28px;
+  margin-bottom: 69px;
+}
+
+.course-goals-list {
+  list-style: none;
+  padding: 0;
+}
+
+.colearners {
+  background-color: #f2f2f5;
+}
+
+.course-goals-list li:nth-child(3n+1) {
+  clear:left;
+}
+
+.colearners-list > li:nth-child(3n+1) {
+  clear:left;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content:"";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.course-goals-list li {
+  margin: 1%;
+  float: left;
+  width: 31%;
+  height 200px;
+}
+
+.goal-title {
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #666666;
+  margin-bottom:10px;
+}
+
+.goal-text {
+  font-size: 16px;
+  color: #777777;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: .02em;
+}
+
+.colearners-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #777777;
+  font-size: 28px;
+  padding-top: 91px;
+}
+
+.colearners img {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.colearners-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* inline block to center last line */
+
+.colearner {
+  margin: 1%;
+  float: left;
+  width: 31%;
+  height 200px;
+}
+
+.social-link-list {
+  text-align: center;
+
+}
+
+.social-link-list li{
+  display:inline-block;
+  margin-left:10px;
+}
+
+.colearner-name {
+  font-size: 22px;
+  line-height: 25px;
+  color: #444444;
+  font-weight: 500;
+  text-align: center;
+}
+
+.twitter-icon {
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/slice.png);
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; 
+  width:18px;
+  height:18px;
+}
+
+.facebook-icon {
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/slice.png);
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; 
+  width:18px;
+  height:18px;
+  background-position:89px;
+}
+
+.linkedin-icon {
+  background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/slice.png);
+  display: block;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden; 
+  width:18px;
+  height:18px;
+  background-position:18px;
+}
