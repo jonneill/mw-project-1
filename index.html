@@ -6,7 +6,7 @@
     <title>Modern Web Project #1</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="scss/style.scss">
+    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,500,700' rel='stylesheet' type='text/css'>
     
     <script>
@@ -23,15 +23,15 @@
 </head>
 
 <body>
-    <section class="introduction">
-        <header class="header">
-            <h1 class="title-replace"><a href="#" class="header-title">The Factory</a></h1>
+    <section class="header-and-banner">
+        <header class="header clearfix">
+            <h1 class="header-title"><a href="#">The Factory</a></h1>
             <nav class="header-nav">
                 <ul class="header-nav-list">
-                    <li><a href="#">Description</a></li>
-                    <li><a href="#">Colearners</a></li>
-                    <li><a href="#">Instructor</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#description">Description</a></li>
+                    <li><a href="#colearners">Colearners</a></li>
+                    <li><a href="#instructor">Instructor</a></li>
+                    <li><a href="#signup">Sign Up</a></li>
                 </ul>
             </nav>
         </header>
@@ -43,6 +43,7 @@
     </section> <!-- Header, Nav, Intro -->
 
     <section class="intro">
+        <a id="description"></a>
         <p class="intro-text">HTML and CSS are only part of the picture. The modern front-end developer will also need to be versed in version control, task automators, preporcessors, frameworks, the command line, and more.</p>
         <!-- Psuedo Element -->
     </section>
@@ -77,7 +78,8 @@
     </section><!-- Course Goals -->
 
     <section class="colearners">
-        <h1 class="colearners-title">Meet The Collaborators</h1>
+        <a id="colearners"></a>
+        <h1 class="colearners-title">Meet The Colearners</h1>
         <ul class="colearners-list clearfix">
             <li class="colearner">
                 <img src="http://jeremyabrahams.github.io/mw-project-1/img/colearner-f1.jpg" alt="">
@@ -199,7 +201,7 @@
                 </ul>
             </li>
 
-            <li class="colearner">
+            <li class="colearner-list-leftover">
                 <img src="http://jeremyabrahams.github.io/mw-project-1/img/colearner-m2.jpg" alt="">
                 <h2 class="colearner-name">Justin Gustafson</h2>
                 <ul class="social-link-list">
@@ -211,42 +213,50 @@
         </ul>
     </section><!-- colearners -->
 
-    <article>
+    <article class="instructor">
+        <a id="instructor"></a>
         <img class="instructor-photo" src="http://jeremyabrahams.github.io/mw-project-1/img/instructor.jpg" alt="A photo of Jeremy Abrahams">
-        <h1>Meet the Instructor</h1>
-        <h2>Jeremy Abrahams</h2>
-        <p>Mighty in the Midwest</p>
-        <p>Design and Front-End Development are a huge part of my life. Some of my other passions include music, my record collection, typography, UX, local craft beer and food, and most of all, my wife. I'm a previous coLearning graduate and full-time developer
+        <div class="overlay-content">
+        <h1 class="instructor-header">Meet the Instructor</h1>
+        <h2 class="instructor-name">Jeremy Abrahams</h2>
+        <p class="instructor-company">Mighty in the Midwest</p>
+        <p class="instructor-description">Design and Front-End Development are a huge part of my life. Some of my other passions include music, my record collection, typography, UX, local craft beer and food, and most of all, my wife. I'm a previous coLearning graduate and full-time developer
       at Mighty.</p>
+        </div>
     </article><!-- Meet The Instructor -->
 
-    <figure>
-        <p>“The ability to learn in-person from an expert instructor as well as work alonggside other peers in the area is invaluable."</p>
-        <figcaption <cite>Edsger Dijkstra <span>Colearner and graduate of <a href="#">Intro to Ruby</a></span></cite>
+    <figure class="quotation">
+        <p class="quotation-text">“The ability to learn in-person from an expert instructor as well as work alongside other peers in the area is invaluable."</p>
+        <figcaption> Adam Delong <span>colearner and graduate of <a href="#">Intro to Ruby</a></span>
     </figcaption>
     </figure>
-    <div>
-        <section>
-            <h1>Course Details</h1>
+    <div class="footer-background">
+        <section class="course-details">
+            <a id="signup"></a>
+            <h1 class="hide">Course Details</h1>
             <dl>
-                <dt>Date</dt>
-                <dd>Sept 14th–Nov30th</dd>
-                <dt>Time</dt>
-                <dd>Every Mon 6pm–8:30pm</dd>
+                <dt class="hide">Date</dt>
+                <dd class="course-details-date">Sept 14th–Nov 30th</dd>
+                <dt class="hide">Time</dt>
+                <dd class="course-details-time">Every Mon 6pm - 8:30pm</dd>
                 <dt>Orientation:</dt>
                 <dd>Sept 9th</dd>
                 <dt>Graduation:</dt>
                 <dd>Dec 9th</dd>
+                 <div class="sep-details">
                 <dt>Class size:</dt>
                 <dd>20 students</dd>
+                </div>
+                <div class="sep-details">
                 <dt>Cost:</dt>
                 <dd>$800</dd>
+                     </div>
             </dl>
-            <a href="#">Sign Up</a>
+            <a href="#" class="sign-up">Sign Up</a>
         </section>
         <footer>
-            <h1>The Factory</h1>
-            <p>38 Fulton S. West, Suite 400 <span>Grand Rapids, MI 49503</span></p>
+            <h1 class="footer-title">The Factory</h1>
+            <p class="address-1">38 Fulton S. West, Suite 400 <span class="address-2">Grand Rapids, MI 49503</span></p>
         </footer>
     </div>
 </body>
