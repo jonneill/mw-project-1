@@ -1043,7 +1043,7 @@ article {
 .footer-background {
     position:relative;
     height: auto;
-    background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/footer.jpg);
+    background-image: url(assets/img/footer.jpg);
     background-size: cover;
 }
 
