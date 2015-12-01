@@ -812,7 +812,7 @@ body {
 .header-and-banner {
     height: 640px;
     background-color:#666666;
-    background-image: url(http://jeremyabrahams.github.io/mw-project-1/img/hero.jpg);
+    background-image:url(assets/img/hero.jpg);
     background-size: cover;
 }
 
