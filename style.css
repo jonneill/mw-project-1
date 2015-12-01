@@ -735,7 +735,16 @@ body {
         margin-left: 95px;
         margin-top: 10%;
         max-width: 420px;
-}
+    }
+    
+    .quotation {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 70%;
+        max-width: 870px;  
+    }
+    
     
     .quotation-text {
         position: relative;
